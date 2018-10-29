@@ -1,4 +1,4 @@
-export const orderTypes = {
+const orderTypes = {
   getUserData: 0,
   buyImmediateOrCancel: 1,
   sellImmediateOrCancel: 2,
@@ -9,7 +9,7 @@ export const orderTypes = {
   timedSellMaking: 7
 };
 
-export const orderTypesStr = {
+const orderTypesStr = {
   0: 'get User Data',
   1: 'buy Immediate Or Cancel',
   2: 'sell Immediate Or Cancel',
@@ -19,4 +19,7 @@ export const orderTypesStr = {
   6: 'timed Buy Making',
   7: 'timed Sell Making'
 };
+
+module.exports.orderTypes = orderTypes;
+module.exports.orderTypesStr = orderTypesStr;
 

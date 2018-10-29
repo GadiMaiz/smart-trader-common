@@ -1,6 +1,6 @@
-import {Notifications, NotificationsString} from './notifications';
-import {orderTypes, orderTypesStr} from './orderTypes';
-import {exchangeIds} from './exchangeIds';
+const {Notifications, NotificationsString} = require( './notifications');
+const {orderTypes, orderTypesStr} = require('./orderTypes');
+const {exchangeIds} = require('./exchangeIds');
 
 module.exports.Notifications = Notifications;
 module.exports.NotificationsString = NotificationsString;

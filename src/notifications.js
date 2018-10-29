@@ -1,4 +1,4 @@
-export const Notifications = {
+const Notifications = {
   Success:                        0,
   AboutToSendToEventQueue:        1,
   SentToEventQueue:               2,
@@ -13,7 +13,7 @@ export const Notifications = {
   SuccessfullyLoggedInToExchange: 11
 };
 
-export const NotificationsString = {
+const NotificationsString = {
   0: 'Success',
   1: 'About To Send To Event Queue',
   2: 'Sent To Event Queue',
@@ -27,3 +27,6 @@ export const NotificationsString = {
   10:'Received On Server',
   11:'Successfully Logged In To Exchange'
 };
+
+module.exports.Notifications = Notifications;
+module.exports.NotificationsString = NotificationsString;
