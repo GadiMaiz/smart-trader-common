@@ -1,5 +1,5 @@
 {
-  "name": "smart-trade-common",
+  "name": "smart-trader-common",
   "version": "1.0.0",
   "description": "common assets for all smartTrader modules",
   "main": "src/index.js",
