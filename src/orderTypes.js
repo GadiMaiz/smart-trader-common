@@ -1,23 +1,41 @@
+// const orderTypes = {
+//   getUserData: 0,
+//   buyImmediateOrCancel: 1,
+//   sellImmediateOrCancel: 2,
+//   login: 3,
+//   timeBuyTaking: 4,
+//   timeSellTaking: 5,
+//   timedBuyMaking: 6,
+//   timedSellMaking: 7
+// };
+
+// const orderTypesStr = {
+//   0: 'get User Data',
+//   1: 'buy Immediate Or Cancel',
+//   2: 'sell Immediate Or Cancel',
+//   3: 'login',
+//   4: 'time Buy Taking',
+//   5: 'time Sell Taking',
+//   6: 'timed Buy Making',
+//   7: 'timed Sell Making'
+// };
+
 const orderTypes = {
-  getUserData: 0,
-  buyImmediateOrCancel: 1,
-  sellImmediateOrCancel: 2,
-  login: 3,
-  timeBuyTaking: 4,
-  timeSellTaking: 5,
-  timedBuyMaking: 6,
-  timedSellMaking: 7
+  login: 0,
+  getUserData: 1,
+  ImmediateOrCancel: 2,
+  timedTaking: 3,
+  timedMaking: 4,
+  market: 5
 };
 
 const orderTypesStr = {
-  0: 'get User Data',
-  1: 'buy Immediate Or Cancel',
-  2: 'sell Immediate Or Cancel',
-  3: 'login',
-  4: 'time Buy Taking',
-  5: 'time Sell Taking',
-  6: 'timed Buy Making',
-  7: 'timed Sell Making'
+  0: 'login',
+  1: 'getUserData',
+  2: 'ImmediateOrCancel',
+  3: 'time Taking',
+  4: 'timed Making',
+  5: 'market'
 };
 
 module.exports.orderTypes = orderTypes;
