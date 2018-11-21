@@ -9,7 +9,7 @@ const Notifications = {
   Update:                         7,
   Finished:                       8,
   Error:                          9,
-  ReceivedOnServer:               10,
+  ReceivedOnTrader:               10,
   SuccessfullyLoggedInToExchange: 11
 };
 
@@ -24,7 +24,7 @@ const NotificationsString = {
   7: 'Update',
   8: 'Finished',
   9: 'Error',
-  10:'Received On Server',
+  10:'Received On Trader',
   11:'Successfully Logged In To Exchange'
 };
 
