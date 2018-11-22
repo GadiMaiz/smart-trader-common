@@ -26,16 +26,18 @@ const orderTypes = {
   ImmediateOrCancel: 2,
   timedTaking: 3,
   timedMaking: 4,
-  market: 5
+  market: 5,
+  beginTrading : 6,
 };
 
 const orderTypesStr = {
   0: 'login',
-  1: 'getUserData',
-  2: 'ImmediateOrCancel',
-  3: 'time Taking',
-  4: 'timed Making',
-  5: 'market'
+  1: 'Get User Data',
+  2: 'Immediate Or Cancel',
+  3: 'Timed Taking',
+  4: 'Timed Making',
+  5: 'Market',
+  6: 'Begin Trading'
 };
 
 module.exports.orderTypes = orderTypes;
