@@ -27,7 +27,7 @@ const orderTypes = {
   timedTaking: 3,
   timedMaking: 4,
   market: 5,
-  beginTrading : 6,
+  prepareForTrade : 6,
 };
 
 const orderTypesStr = {
@@ -37,7 +37,7 @@ const orderTypesStr = {
   3: 'Timed Taking',
   4: 'Timed Making',
   5: 'Market',
-  6: 'Begin Trading'
+  6: 'Prepare For Trade'
 };
 
 module.exports.orderTypes = orderTypes;
