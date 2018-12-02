@@ -10,7 +10,8 @@ const Notifications = {
   Finished:                       8,
   Error:                          9,
   ReceivedOnTrader:               10,
-  SuccessfullyLoggedInToExchange: 11
+  SuccessfullyLoggedInToExchange: 11,
+  depositRequestReceived        : 12
 };
 
 const NotificationsString = {
@@ -25,7 +26,8 @@ const NotificationsString = {
   8: 'Finished',
   9: 'Error',
   10:'Received On Trader',
-  11:'Successfully Logged In To Exchange'
+  11:'Successfully Logged In To Exchange',
+  12:'Deposit Request Received'
 };
 
 module.exports.Notifications = Notifications;
