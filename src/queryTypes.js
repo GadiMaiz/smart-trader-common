@@ -1,5 +1,3 @@
-
-
 const queryTypes = {
   listTrades: 0,
   listWithdrawals: 1,
