@@ -4,4 +4,4 @@ const queryTypes = {
   listOrders: 2,
 };
 
-module.exports = queryTypes;
+module.exports.queryTypes = queryTypes;
