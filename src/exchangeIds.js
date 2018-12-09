@@ -1,6 +1,6 @@
 const exchangeIds = {
-  bitfinex : 0,
-  bitstamp : 1,
+  bitstamp : 0,
+  bitfinex : 1,
   kraken   : 2
 };
 
